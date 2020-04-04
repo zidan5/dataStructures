@@ -6,7 +6,7 @@ public class DataStructures {
 
     public  static  int x = 0;
     public static void main(String[] args)  {
-        System.out.println("Try to edit nyana and change my comments,.....ola");
+       
         Deque<Integer> de_que = new ArrayDeque<Integer>(); //You can also use LinkedList since it does implement Deque interface
         de_que.add(6); // Adding elements to my queue
         de_que.add(2);
