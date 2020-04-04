@@ -46,7 +46,7 @@ public class DataStructures {
                     }
                     System.out.print(arrayConvertToInt[i]); // Printing number sets
                 }
-                System.out.println(" "+x);  // Printing unique number next to its set
+                System.out.println("   Has "+x+" Unique numbers");  // Printing unique number next to its set
                 if(highestUniquesNumber <= x){   //Getting the highest unique number
                     highestUniquesNumber = x;
                 }
